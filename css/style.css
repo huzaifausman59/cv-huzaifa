@@ -1,0 +1,92 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: white;
+  color: #222;
+  margin: 0;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+}
+
+/* Name */
+.name {
+  font-family: 'Playfair Display', serif;
+  font-size: 44px;
+}
+
+.title {
+  margin-top: 5px;
+}
+
+/* Profile photo */
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Contact row  */
+.contact {
+  display: flex;
+  gap: 30px;
+  padding: 0 60px;
+  flex-wrap: wrap;
+}
+
+/* Resume container */
+.resume {
+  width: 800px;
+  margin-left: 60px;
+  line-height: 1.6;
+}
+
+/* Section titles */
+h2 {
+  font-family: 'Playfair Display', serif;
+  margin-top: 30px;
+}
+
+/* Lines */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* Summary */
+.summary {
+  text-align: justify;
+}
+
+/* Lists */
+ul {
+  margin-left: 20px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .header,
+  .contact {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .resume {
+    width: 90%;
+    margin-left: 20px;
+  }
+}
