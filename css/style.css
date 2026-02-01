@@ -10,7 +10,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 60px;
+  padding: 5px 60px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
 }
 
 /* Name */
@@ -23,12 +28,15 @@ body {
   margin-top: 5px;
 }
 
-/* Profile photo */
-.photo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
+/* Buttons */
+button,
+.btn {
+  padding: 8px 12px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /* Contact row  */
@@ -70,8 +78,8 @@ ul {
 
 /* Footer */
 .footer {
-  margin-top: 40px;
-  padding: 20px;
+  margin-top: 10px;
+  padding: 10px;
   text-align: center;
   font-size: 14px;
   border-top: 1px solid #ccc;
