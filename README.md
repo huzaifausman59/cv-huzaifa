@@ -8,7 +8,7 @@ This is a personal CV website built using HTML and CSS as part of a web developm
 - Flexbox
 
 ## Live Website
-
+cv-huzaifa.vercel.app
 
 ## Student Information
 Name: Muhammad Huzaifa Usman  
